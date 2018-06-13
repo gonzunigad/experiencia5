@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 6</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, sans-serif;
+    }
+
+    #content {
+        display: table;
+    }
+    header {
+        background: url('bg.jpg') center center;
+        background-size: cover;
+        height: 50vh;
+        text-align: center;
+        color: #fff;
+        min-height: 200px;
+        vertical-align: center;
+    }
+    header h1 {
+        padding-top: 50px;
+        margin: 0;
+        font-weight: normal;
+    }
+    .col {
+        width: 33.3%;
+        box-sizing: border-box;
+        float: left;
+        padding: 20px;
+    }
+    .img {
+        width: 100%;
+        height: 200px;
+        background: lightgreen;
+    }
+
+    @media (max-width: 480px) {
+        .col {
+            width: 100%;
+            float: none;
+        }
+    }
+</style>
+<body>
+<div id="content">
+    <header>
+        <h1>Hola! <br>Este es un ejercicio de grillas</h1>
+    </header>
+    <div class="main">
+        <div class="col">
+            <div class="img"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor error et eveniet laudantium necessitatibus quaerat saepe voluptatibus. Accusamus aliquam autem harum labore maxime suscipit, tempore. Aliquam debitis in mollitia.</p>
+        </div>
+        <div class="col">
+            <div class="img"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor error et eveniet laudantium necessitatibus quaerat saepe voluptatibus. Accusamus aliquam autem harum labore maxime suscipit, tempore. Aliquam debitis in mollitia.</p>
+        </div>
+        <div class="col">
+            <div class="img"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab dolor error et eveniet laudantium necessitatibus quaerat saepe voluptatibus. Accusamus aliquam autem harum labore maxime suscipit, tempore. Aliquam debitis in mollitia.</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
